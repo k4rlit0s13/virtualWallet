@@ -1,0 +1,301 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header__background{
+    background-color: var(--color-2);
+    background-image: url(../storage/img/textureBalance.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: red; */
+
+    height: 200px;
+    /* border-radius: 0 0 10px 0px; */
+
+    box-shadow: 0px 3px 15px var(--color-2);
+}
+.home__top{
+    color: var(--color-1);
+
+    display: flex;
+    flex-direction: column;
+
+    /* background-color: red; */
+    padding: 20px;
+
+    gap: 20px;
+}
+.home__top__head{
+    /* background-color: blue; */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.home__top__head__nameBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+    /* background-color: violet; */
+}
+.logo{
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    height: 2rem;
+}
+.name{
+    font-family: "SF_Pro_Text_Bold";    font-size: 2rem;
+}
+.home__top__head__option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home__top__head__option img{
+    height: 2rem;
+}
+.home__top__totalBalance{
+    /* background-color: red; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home__top__totalBalance__circle{
+
+    background-color: var(--color-4);
+
+    border-radius: 50px 50px 10px 10px;
+
+    box-shadow: 0px 5px 2px var(--color-2);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 10px;
+
+    width: 200px;
+    height: 200px;
+}
+.home__top__totalBalance__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home__top__totalBalance__price{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.home__top__totalBalance__title h2{
+    font-family: "SF_Pro_Text_Bold";
+}
+.home__top__totalBalance__price h2{
+    font-family: "SF_Pro_Text_Bold";
+}
+
+
+
+
+
+
+.home__footer{
+    background-color: var(--color-2);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px;
+}
+.home__footer__iconbox{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.home__footer__iconbox__icon img{
+    width: 25px;
+}
+.home__footer__iconbox__circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home__footer__iconbox__circle img{
+    width: 5px;
+}
+
+
+
+.main{
+
+}
+.main__graphic__sections{
+    /* background-color: yellowgreen; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin:20px ;
+    gap: 50px; 
+}
+.main__bottons{
+    /* background-color: orange; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 100%;
+}
+.main__bottons a{
+    color: var(--color-2);
+    font-family: "SF_Pro_Text_Regular";;
+    text-decoration: none;
+}
+.main__bottons__Assets a{
+    background-color: var(--color-2);
+    border-radius: 50px;
+    padding:  10px 20px 10px 20px;
+
+    color: var(--color-1);
+
+    box-shadow: 0px 3px 0px var(--color-2);
+}
+.main__bottons__Debt a{
+    background-color: var(--color-1);
+    border: 2px solid var(--color-3);
+    border-radius: 50px;
+    padding:  10px 20px 10px 20px;
+
+    color: var(--color-3);
+
+    box-shadow: 0px 3px 0px var(--color-2);
+}
+.main__bottons__Income a{
+    background-color: var(--color-1);
+    border: 2px solid var(--color-4);
+    border-radius: 50px;
+    padding:  10px 20px 10px 20px;
+
+    color: var(--color-4);
+
+    box-shadow: 0px 3px 0px var(--color-2);
+}
+.main__graphics{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 5px var(--color-2);
+}
+.main__graphics__image{
+    /* background-color: cadetblue; */
+    width: 100%;
+}
+.main__graphics__image img{
+    width: 100%;
+}
+.main__graphics__days{
+    /* background-color: orangered; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main__graphics__days div h3{
+    font-family: "SF_Pro_Text_Medium";
+}
+
+
+
+
+
+
+
+
+
+
+.main__publish__section{
+    /* background-color: red; */
+
+    background: var(--color-5);
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.main__publish__section__exit{
+    /* background-color: palegoldenrod; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+
+    padding-right: 20px;
+}
+.main__publish__section__exit img{
+    width: 30px;
+}
+.main__publish__section__info{
+    /* background-color: orange; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 20px;
+    gap: 30px;
+
+}
+.main__publish__section__info__img{
+    /* background-color: blue; */
+
+    width: 33%;
+}
+.main__publish__section__info__img img{
+
+    width: 100px;
+}
+.main__publish__section__info__text{
+    /* background-color: orchid; */
+}
+.main__publish__section__info__text h2{
+    /* background-color: orchid; */
+    color: var(--color-2);
+    font-family: "SF_Pro_Text_Bold";
+}
+.main__publish__section__info__text small{
+    /* background-color: orchid; */
+    color: var(--color-4);
+    font-family: "SF_Pro_Text_Regular";
+}
