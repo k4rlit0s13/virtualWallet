@@ -5,3 +5,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background: var(--color-2);
+}
+
+.home__top{
+    color: var(--color-1);
+}
