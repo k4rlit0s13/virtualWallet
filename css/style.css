@@ -35,7 +35,6 @@ body{
     gap: 10px;
 
     background-color: violet;
-
 }
 .logo{
     align-items: center;
@@ -54,4 +53,18 @@ body{
 }
 .home__top__head__option img{
     height: 2rem;
+}
+.home__top__greetings{
+    background-color: orange;
+}
+.home__top__greetings__HI{
+    font-family: "SF_Pro_Text_Heavy";
+    font-size: 2rem;
+}
+.home__top__greetings__USER{
+    font-family: "SF_Pro_Text_Light";
+    font-size: 1.5rem;
+}
+.home__top__balance{
+    background-color: olive;
 }
