@@ -67,4 +67,20 @@ body{
 }
 .home__top__balance{
     background-color: olive;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.home__top__balance__SAVINGS{
+    background-color: violet;
+}
+.home__top__balance__ASSETS{
+    background-color: yellowgreen;
+}
+.home__top__balance__BOXbar{
+    background-color: var(--color-1);
+    border-radius: 5px;
+    height: 10px;
+    width: 150px;
 }
