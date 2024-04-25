@@ -4,5 +4,22 @@
     --color-2:#33404F;
     --color-3:#00DDA3;
     --color-4:#B5C5C3;
-    
+
+}
+
+@font-face {
+    font-family: "SF_Pro_Text_Bold";
+    src: url(../storage/font/SF-Pro-Text-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: "SF_Pro_Text_Heavy";
+    src: url(../storage/font/SF-Pro-Text-Heavy.ttf);
+}
+
+
+@font-face {
+    font-family: "SF_Pro_Text_Light";
+    src: url(../storage/font/SF-Pro-Text-Light.ttf);
 }
