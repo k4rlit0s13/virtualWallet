@@ -209,7 +209,7 @@ main{
     padding: 20px;
     gap: 10px;
 
-    height: 22vh;
+    height: 26vh;
     overflow-y: scroll;
 }
 .home__main__transactions_list__box{
