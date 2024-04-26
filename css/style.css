@@ -142,7 +142,7 @@ main{
     gap: 20px;
 }
 .home__main{
-    background-color: yellowgreen;
+    background-color: var(--color-1);
 
     display: flex;
     flex-direction: column;    
@@ -155,18 +155,17 @@ main{
 }
 .home__main__Activities_title h3{
     font-family: "SF_Pro_Text_Bold";
+    color: var(--color-2);
 }
 .home__main__bottons{
 
-    background-color: aquamarine;
+    background-color: var(--color-1);
 
     display: flex;
     flex-direction: row;    
     justify-content: space-evenly;
-
-    padding: 20px;
 }
-.botton__Account{
+.botton__Activities{
     background-color: var(--color-1);
 
     display: flex;
@@ -174,25 +173,16 @@ main{
     justify-content: center;
     align-items: center;
 
+    width: 25vw;
+    height: 20vh;
+
     padding: 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px var(--color-2);
+
+    color: var(--color-2);
 }
-.botton__Privacy{
-    background-color: var(--color-1);
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    padding: 20px;
-}
-.botton__Help{
-    background-color: var(--color-1);
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    padding: 20px;
+.home__main__bottons__Activities__text span{
+    font-family: "SF_Pro_Text_SemiBold";
 }
