@@ -146,9 +146,15 @@ main{
 
     display: flex;
     flex-direction: column;    
-    padding: 20px;
-    gap: 30px;
+    /* padding: 20px; */
     border-radius: 20px 20px 0 0;
+}
+.home__main__Activities_title{
+    /* background-color: orange; */
+    padding: 20px;
+}
+.home__main__Activities_title h3{
+    font-family: "SF_Pro_Text_Bold";
 }
 .home__main__bottons{
 
@@ -157,13 +163,36 @@ main{
     display: flex;
     flex-direction: row;    
     justify-content: space-evenly;
+
+    padding: 20px;
 }
-.home__main__bottons__Account{
+.botton__Account{
     background-color: var(--color-1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
 }
-.home__main__bottons__Privacy{
+.botton__Privacy{
     background-color: var(--color-1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
 }
-.home__main__bottons__Help{
+.botton__Help{
     background-color: var(--color-1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
 }
