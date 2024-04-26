@@ -153,17 +153,19 @@ main{
     /* background-color: orange; */
     padding: 20px;
 }
-.home__main__Activities_title h3{
+.home__main__Activities_title h2{
     font-family: "SF_Pro_Text_Bold";
     color: var(--color-2);
 }
 .home__main__bottons{
 
-    background-color: var(--color-1);
+    background-color: orange;
 
     display: flex;
     flex-direction: row;    
     justify-content: space-evenly;
+
+    height: 150px;
 }
 .botton__Activities{
     background-color: var(--color-1);
@@ -174,9 +176,10 @@ main{
     align-items: center;
 
     width: 25vw;
-    height: 20vh;
 
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
     text-decoration: none;
     border-radius: 30px;
     box-shadow: 0px 0px 10px var(--color-2);
@@ -185,4 +188,12 @@ main{
 }
 .home__main__bottons__Activities__text span{
     font-family: "SF_Pro_Text_SemiBold";
+}
+.home__main__transactions_title{
+    /* background-color: orange; */
+    padding: 20px;
+}
+.home__main__transactions_title h2{
+    font-family: "SF_Pro_Text_Bold";
+    color: var(--color-2);
 }
