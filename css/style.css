@@ -159,7 +159,7 @@ main{
 }
 .home__main__bottons{
 
-    background-color: orange;
+    /* background-color: orange; */
 
     display: flex;
     flex-direction: row;    
@@ -196,4 +196,22 @@ main{
 .home__main__transactions_title h2{
     font-family: "SF_Pro_Text_Bold";
     color: var(--color-2);
+}
+.home__main__transactions_list{
+    color: var(--color-2);
+    
+    display: flex;
+    flex-direction: column;
+}
+.home__main__transactions_list__box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 20px;
+}
+.home__main__transactions_list__box__text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
