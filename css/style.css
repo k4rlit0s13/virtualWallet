@@ -99,7 +99,10 @@ body{
     width: 40%;
 }
 .home__top__balance__TITLE{
-    font-family: SF_Pro_Text_Light;
+    font-family: "SF_Pro_Text_Light";
+}
+.home__top__balance__PRICE{
+    font-family: "Roboto_Bold";
 }
 main{
     color: var(--color-1);
