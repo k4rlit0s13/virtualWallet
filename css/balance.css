@@ -5,3 +5,40 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+
+
+
+
+
+
+
+.home__footer{
+    background-color: var(--color-2);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px;
+}
+.home__footer__iconbox{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.home__footer__iconbox__icon img{
+    width: 25px;
+}
+.home__footer__iconbox__circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home__footer__iconbox__circle img{
+    width: 5px;
+}
