@@ -23,3 +23,8 @@
     font-family: "SF_Pro_Text_Light";
     src: url(../storage/font/SF-Pro-Text-Light.ttf);
 }
+
+@font-face {
+    font-family: "Roboto_Bold";
+    src: url(../storage/font/Roboto-Bold.ttf);
+}
