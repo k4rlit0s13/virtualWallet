@@ -198,20 +198,49 @@ main{
     color: var(--color-2);
 }
 .home__main__transactions_list{
+    /* background-color: red; */
+    
     color: var(--color-2);
     
     display: flex;
     flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+
+    height: 21vh;
+    overflow-y: scroll;
 }
 .home__main__transactions_list__box{
+    /* background-color: red; */
+
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-
-    padding: 20px;
+}
+.home__main__transactions_list__box__arrow{
+    /* background-color: violet; */
 }
 .home__main__transactions_list__box__text{
+    /* background-color: orange; */
+
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+.home__main__transactions_list__box__description{
+    /* background-color: yellow; */
+
+    display: flex;
+    flex-direction: column;
+
+    width: 95%;
+}
+.home__main__transactions_list__box__price{
+    /* background-color: green; */
+
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.home__main__transactions_list span{
+    font-family: "SF_Pro_Text_Bold";
 }
