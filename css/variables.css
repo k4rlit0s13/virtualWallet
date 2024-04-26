@@ -12,6 +12,10 @@
     src: url(../storage/font/SF-Pro-Text-Bold.ttf);
 }
 
+@font-face {
+    font-family: "SF_Pro_Text_SemiBold";
+    src: url(../storage/font/SF-Pro-Text-Semibold.ttf)
+}
 
 @font-face {
     font-family: "SF_Pro_Text_Heavy";
