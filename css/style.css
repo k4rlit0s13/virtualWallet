@@ -118,6 +118,9 @@ body{
     font-family: "SF_Pro_Text_Medium";
 }
 .home__top__balance__PRICE{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     font-family: "Roboto_Bold";
 }
 
@@ -236,6 +239,14 @@ main{
     flex-direction: column;
 
     width: 95%;
+}
+.home__main__transactions_list__box__description small{
+    font-family: "SF_Pro_Text_Medium";
+    color: var(--color-4);
+}
+.home__main__transactions_list__box__price small{
+    font-family: "SF_Pro_Text_Medium";
+    color: var(--color-4);
 }
 .home__main__transactions_list__box__price{
     /* background-color: green; */
