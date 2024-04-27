@@ -153,6 +153,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 25px;
+    margin-bottom: 50px;
     gap: 20px;
 }
 .main__middle__title{
@@ -242,7 +243,7 @@
     /* background: yellowgreen; */
 
     border-radius: 30px;
-    
+
     background-color: var(--color-4);
     background-image: url(../storage/img/textureCreditCard2.svg);
     background-size: cover;
