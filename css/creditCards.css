@@ -7,6 +7,7 @@
 }
 
 
+
 .credit__cards__top{
     color: var(--color-2);
 
@@ -26,12 +27,12 @@
     justify-content: space-between;
 }
 .credit__cards__top__head__nameBox{
+    /* background-color: violet; */
+
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 10px;
-
-    /* background-color: violet; */
 }
 .logo{
     align-items: center;
@@ -51,6 +52,112 @@
 .credit__cards__top__head__option img{
     height: 2rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+.main{
+    background-color: var(--color-1);
+}
+.main__top{
+    background-color: red;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+    gap: 20px;
+}
+.main__top__investing__title{
+    /* background-color: blueviolet; */
+
+    color: var(--color-2);
+}
+.main__top__investing__title{
+    font-family: "SF_Pro_Text_Bold";
+}
+.main__top__tipBox{
+    /* background-color: orange; */
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 150px;
+
+    box-shadow: 0px 0px 10px var(--color-2);
+
+}
+.main__top__tipBox__porkBox{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--color-5);
+
+    border-radius: 20px 40% 40% 20px;
+
+    padding: 22px;
+}
+.main__top__tipBox__porkBox img{
+    width: 100px;
+}
+.main__top__tipBox__textAndBottonBox{
+    display: flex;
+    flex-direction: column;
+}
+.main__top__tipBox__textAndBottonBox__title{
+    font-family: "SF_Pro_Text_Bold";
+    color: var(--color-2);
+}
+.main__top__tipBox__textAndBottonBox__description{
+    font-family: "SF_Pro_Text_Regular";
+    color: var(--color-4);
+}
+.main__top__tipBox__textAndBottonBox__bottonBox{
+    margin-top: 20px;
+}
+.main__top__tipBox__textAndBottonBox__botton{
+    background-color: var(--color-3);
+
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-family: "SF_Pro_Text_Bold";
+    color: var(--color-1);
+
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+}
+.main__top__tipBox__xBox{
+    position: relative;
+    top: -50px;
+    right: 10px;
+}
+.main__top__tipBox__xBox img{
+    width: 20px;
+}
+
+
+
+
+
+
+
 
 
 

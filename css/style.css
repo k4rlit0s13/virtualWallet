@@ -68,7 +68,7 @@ body{
     font-size: 2rem;
 }
 .home__top__greetings__USER{
-    font-family: "SF_Pro_Text_Light";
+    font-family: "SF_Pro_Text_Medium";
     font-size: 1.5rem;
 }
 .home__top__balance{
@@ -115,7 +115,7 @@ body{
     width: 40%;
 }
 .home__top__balance__TITLE{
-    font-family: "SF_Pro_Text_Light";
+    font-family: "SF_Pro_Text_Medium";
 }
 .home__top__balance__PRICE{
     font-family: "Roboto_Bold";
@@ -143,7 +143,7 @@ main{
     gap: 20px;
 }
 .home__main{
-    /* background-color: blue; */
+    background-color: blue;
 
     background-color: var(--color-1);
 
@@ -257,6 +257,8 @@ main{
 
 
 .home__footer{
+
+    /* background-color: orange; */
     background-color: var(--color-2);
 
     display: flex;
@@ -269,6 +271,8 @@ main{
     padding-top: 15px;
 }
 .home__footer__iconbox{
+    /* background-color: red; */
+
     display: flex;
     flex-direction: column;
     /* align-items: center; */

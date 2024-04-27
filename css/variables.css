@@ -4,6 +4,7 @@
     --color-2:#33404F;
     --color-3:#00DDA3;
     --color-4:#B5C5C3;
+    --color-5:#E1FFEF;
 
 }
 
@@ -22,9 +23,13 @@
     src: url(../storage/font/SF-Pro-Text-Heavy.ttf);
 }
 
+@font-face {
+    font-family: "SF_Pro_Text_Regular";
+    src: url(../storage/font//Roboto-Regular.ttf);
+}
 
 @font-face {
-    font-family: "SF_Pro_Text_Light";
+    font-family: "SF_Pro_Text_Medium";
     src: url(../storage/font/SF-Pro-Text-Medium.ttf);
 }
 
