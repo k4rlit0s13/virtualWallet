@@ -8,7 +8,7 @@
 
 body{
     background: var(--color-2);
-    background-image: url(/storage/img/texture.svg);
+    background-image: url(../storage/img/texture.svg);
     background-position: 0px -100px;
     background-size: cover;
     background-repeat: no-repeat;
