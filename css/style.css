@@ -172,7 +172,8 @@ main{
 
 
     width: 100%;
-    gap: 20px;
+
+    gap: 30px;
     overflow-x: scroll;
     padding-left: 30px;
 
@@ -188,7 +189,8 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
+    
+    gap: 5px;
 
     height: 150px;
     width: 100px;
@@ -212,7 +214,7 @@ main{
 .home__main__bottons__Activities__icon img{
     /* background-color: yellowgreen; */
 
-    width: 50px;
+    width: 45px;
 }
 .home__main__bottons__Activities__text{
     /* background-color: orangered; */
