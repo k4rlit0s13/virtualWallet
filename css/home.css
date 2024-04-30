@@ -1,0 +1,159 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 95vh;
+    background: var(--color-2);
+    background-image: url(../storage/img/texture.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    /* background-color: red; */
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 60px;
+}
+.logo{
+    /* background-color: violet; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo h1{
+    color: var(--color-1);
+    font-family: "SF_Pro_Text_Bold";
+    font-size: 3rem;
+}
+.logo img{
+    width: 20vh;
+}
+.options{
+    /* background-color: orange; */
+
+
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow-x: scroll;
+
+    gap: 30px;
+
+    margin-bottom: 60px;
+}
+.home__main__bottons__Activities__icon img{
+    width: 150px;
+}
+.botton__Activities{
+    /* background-color: blue; */
+
+    background-color: var(--color-1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 5px;
+
+    height:200px;
+
+    text-decoration: none;
+    border-radius: 50px; 
+    box-shadow: 0px 0px 10px var(--color-3);
+
+    color: var(--color-2);
+}
+.home__main__bottons__Activities__icon{
+    /* background-color: salmon; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home__main__bottons__Activities__icon img{
+    /* background-color: yellowgreen; */
+
+    width: 80px;
+}
+.home__main__bottons__Activities__text{
+    /* background-color: orangered; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 2rem;
+
+}
+.home__main__bottons__Activities__text span{
+    font-family: "SF_Pro_Text_SemiBold";
+}
+.home__main__transactions_title{
+    /* background-color: orange; */
+    padding: 20px;
+}
+.home__main__transactions_title h2{
+    font-family: "SF_Pro_Text_Bold";
+    color: var(--color-2);
+}
+
+
+
+
+
+
+
+
+
+.home__footer{
+
+    /* background-color: orange; */
+    background-color: var(--color-2);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px;
+}
+.home__footer__iconbox{
+    /* background-color: red; */
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.home__footer__iconbox__icon img{
+    width: 25px;
+}
+.home__footer__iconbox__circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home__footer__iconbox__circle img{
+    width: 5px;
+}

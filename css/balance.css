@@ -52,7 +52,7 @@
     height: 2rem;
 }
 .name{
-    font-family: "SF_Pro_Text_Heavy";
+    font-family: "SF_Pro_Text_Bold";    font-size: 2rem;
 }
 .home__top__head__option{
     display: flex;

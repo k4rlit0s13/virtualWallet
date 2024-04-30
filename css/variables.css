@@ -6,11 +6,15 @@
     --color-4:#358C4B;
     --color-5:#98eead;
 
+    --color-6:#1e32a5;
+    --color-7:#a51e1e;
+    --color-8:#1e8aa5;
+    --color-9:#7f1ea5;
 }
 
 @font-face {
     font-family: "SF_Pro_Text_Bold";
-    src: url(../storage/font/SF-Pro-Text-Bold.ttf);
+    src: url(../storage/font/Jersey25-Regular.ttf)
 }
 
 @font-face {
