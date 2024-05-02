@@ -6,38 +6,38 @@
     --color-4:#358C4B;
     --color-5:#98eead;
 
-    --color-6:#1e32a5;
-    --color-7:#a51e1e;
-    --color-8:#1e8aa5;
-    --color-9:#7f1ea5;
+    --color-6:#152374;
+    --color-7:#771515;
+    --color-8:#176275;
+    --color-9:#52146b;
 }
 
 @font-face {
     font-family: "SF_Pro_Text_Bold";
-    src: url(../storage/font/Jersey25-Regular.ttf)
+    src: url(../storage/font/Lexend-Black.ttf)
 }
 
 @font-face {
     font-family: "SF_Pro_Text_SemiBold";
-    src: url(../storage/font/SF-Pro-Text-Semibold.ttf)
+    src: url(../storage/font/Lexend-SemiBold.ttf)
 }
 
 @font-face {
     font-family: "SF_Pro_Text_Heavy";
-    src: url(../storage/font/SF-Pro-Text-Heavy.ttf);
+    src: url(../storage/font/Lexend-ExtraBold.ttf);
 }
 
 @font-face {
     font-family: "SF_Pro_Text_Regular";
-    src: url(../storage/font//Roboto-Regular.ttf);
+    src: url(../storage/font/Lexend-Regular.ttf);
 }
 
 @font-face {
     font-family: "SF_Pro_Text_Medium";
-    src: url(../storage/font/SF-Pro-Text-Medium.ttf);
+    src: url(../storage/font/Lexend-Medium.ttf);
 }
 
 @font-face {
     font-family: "Roboto_Bold";
-    src: url(../storage/font/Roboto-Bold.ttf);
+    src: url(../storage/font/Lexend-Bold.ttf);
 }
