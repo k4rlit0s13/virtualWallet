@@ -1,0 +1,222 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 95vh;
+    background: var(--color-2);
+    background-image: url(../storage/img/texture.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home__top{
+    color: var(--color-1);
+
+    display: flex;
+    flex-direction: column;
+
+    /* background-color: red; */
+    margin: 20px;
+
+    gap: 20px;
+}
+.home__top__head{
+    /* background-color: blue; */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.home__top__head__nameBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+    /* background-color: violet; */
+}
+.logo{
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    height: 2rem;
+}
+.name{
+    font-family: "SF_Pro_Text_Bold";    font-size: 2rem;
+}
+.home__top__head__option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home__top__head__option img{
+    height: 2rem;
+}
+
+
+
+
+.home__main{
+    background-color: var(--color-1);
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+
+    border-radius: 30px;
+    padding: 30px;
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+}
+.home__main__transactions_list__box{
+    /* background-color: orange; */
+
+    display: flex;
+    flex-direction: row;
+}
+.home__main__transactions_list__box__arrow{
+    /* background-color: violet; */
+}
+.home__main__transactions_list__box__text{
+    /* background-color: orange; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.home__main__transactions_list__box__description{
+    /* background-color: yellow; */
+
+    display: flex;
+    flex-direction: column;
+
+    width: 95%;
+}
+.home__main__transactions_list__box__description small{
+    font-family: "SF_Pro_Text_Medium";
+    color: var(--color-4);
+}
+.home__main__transactions_list__box__price small{
+    font-family: "SF_Pro_Text_Medium";
+    color: var(--color-4);
+}
+.home__main__transactions_list__box__price{
+    /* background-color: green; */
+
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.home__main__transactions_list span{
+    font-family: "SF_Pro_Text_Bold";
+}.home__main__transactions_list{
+    /* background-color: red; */
+
+    color: var(--color-2);
+    
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+
+    height: 26vh;
+    overflow-y: scroll;
+}
+.home__main__transactions_list__box{
+    /* background-color: orange; */
+
+    display: flex;
+    flex-direction: row;
+}
+.home__main__transactions_list__box__arrow{
+    /* background-color: violet; */
+}
+.home__main__transactions_list__box__text{
+    /* background-color: orange; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.home__main__transactions_list__box__description{
+    /* background-color: yellow; */
+
+    display: flex;
+    flex-direction: column;
+
+    width: 95%;
+}
+.home__main__transactions_list__box__description span{
+    font-family: "SF_Pro_Text_Medium";
+    color: var(--color-2);
+}
+.home__main__transactions_list__box__price span{
+    font-family: "SF_Pro_Text_Medium";
+    color: var(--color-2);
+}
+.home__main__transactions_list__box__price small{
+    font-family: "SF_Pro_Text_Medium";
+    color: var(--color-4);
+}
+.home__main__transactions_list__box__price{
+    /* background-color: green; */
+
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.home__main__transactions_list span{
+    font-family: "SF_Pro_Text_Bold";
+}
+
+
+
+
+
+
+
+
+
+
+
+.home__footer{
+
+    /* background-color: orange; */
+    background-color: var(--color-2);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px;
+}
+.home__footer__iconbox{
+    /* background-color: red; */
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.home__footer__iconbox__icon img{
+    width: 25px;
+}
+.home__footer__iconbox__circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home__footer__iconbox__circle img{
+    width: 5px;
+}

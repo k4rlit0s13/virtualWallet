@@ -6,15 +6,15 @@
     --color-4:#358C4B;
     --color-5:#98eead;
 
-    --color-6:#152374;
-    --color-7:#771515;
-    --color-8:#176275;
-    --color-9:#52146b;
+    --color-6:#1e32a5;
+    --color-7:#a51e1e;
+    --color-8:#1e8aa5;
+    --color-9:#7f1ea5;
 }
 
 @font-face {
     font-family: "SF_Pro_Text_Bold";
-    src: url(../storage/font/Lexend-Black.ttf)
+    src: url(../storage/font/Jersey25-Regular.ttf)
 }
 
 @font-face {
